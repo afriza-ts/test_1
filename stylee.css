@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif}
+
+    body{
+        background-color: black;
+        color: white;
+    }
+    nav{
+        background-color: aquamarine;
+    }
+    img{
+        width: 150px; 
+        height: 200px;
+        object-fit: cover;
+        vertical-align: middle;
+    }
+    .wrapper{
+        padding: 0 15px;
+        display: flex; 
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        gap: 5rem;
+    }
+    .intro{
+        flex: 1;
+    }
+
+    h1{
+        font-weight: bolder;
+        
+    }
+    .container{
+        position: relative;
+    }
+    .gambar-dasar {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            bottom: 0;
+            z-index: 1;
+    }
+    
+    .gambar-atas {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 2;
+        
+    }
+    
+
+
+
+    
+
+    
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+    button:hover{
+        background-color: aqua;
+    }
+
+    footer{
+        background-color: aquamarine;
+        text-align: center;
+        height: 30px;
+        margin-bottom: 200px;
+    }
